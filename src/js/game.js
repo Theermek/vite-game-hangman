@@ -70,7 +70,7 @@ const stopGame = (status) => {
   document.getElementById("placeholders").remove();
   document.getElementById("tries").remove();
   document.getElementById("keyboard").remove();
-  document.getElementById('quit').remove()
+  document.getElementById("quit").remove();
 
   const word = sessionStorage.getItem("word");
 
@@ -82,7 +82,7 @@ const stopGame = (status) => {
     document.getElementById("game").innerHTML +=
       '<h2 class="result-header lose">You lost :(</h2>';
   } else if (status === "quit") {
-    logoH1.classList.remove('logo-resize')
+    logoH1.classList.remove("logo-resize");
     document.getElementById("hangman-image").remove();
   }
 
@@ -119,9 +119,11 @@ export const startGame = () => {
     '<button id="quit" class="button-secondary px-8 py-2 mt-8">Quit</button>'
   );
   document.getElementById("quit").onclick = () => {
-    const isSure = confirm('Are you sure you want to leave and lose your progress?')
+    const isSure = confirm(
+      "Are you sure you want to leave and lose your progress?"
+    );
     if (isSure) {
-        stopGame("quit");
+      stopGame("quit");
     }
-  }
+  };
 };
