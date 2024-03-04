@@ -11,6 +11,7 @@ Session Storage: Additionally, session storage is utilized for temporary data st
 Dark and Light Mode Switcher: Players can customize their gaming experience with a toggle switch for dark and light modes, enhancing accessibility and aesthetics.
 Adaptive Layout: The game features an adaptive layout that adjusts dynamically to accommodate various screen sizes and orientations.
 Explore the Result:
-Curious to see the Hangman game in action? Check out the live demo here and experience the thrill of unraveling hidden words!
+Curious to see the Hangman game in action? Check out the live demo [here](https://theermek.github.io/vite-game-hangman/)
+ and experience the thrill of unraveling hidden words!
 
 With a blend of traditional gameplay and modern development techniques, this Hangman project offers an engaging and interactive experience for players of all ages. Dive in and test your word-guessing skills today!
